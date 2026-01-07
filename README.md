@@ -1,2 +1,2 @@
 # cronussurgical.github.io
-surgical distribution company
+surgical and laboratory instrument distribution company
