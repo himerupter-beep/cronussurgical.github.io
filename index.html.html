@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurgiCore | Premium Surgical Instruments</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.0/lucide.min.js"></script>
+    <style>
+        :root {
+            --medical-blue: #0284c7;
+            --dark-navy: #0f172a;
+            --soft-gray: #f8fafc;
+            --border: #e2e8f0;
+        }
+
+        body { font-family: 'Inter', system-ui, sans-serif; margin: 0; color: var(--dark-navy); background: #fff; line-height: 1.5; }
+        
+        /* Header */
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: white; z-index: 100; }
+        .logo { font-weight: 800; font-size: 1.5rem; color: var(--medical-blue); letter-spacing: -1px; }
+
+        /* Hero */
+        .hero { background: var(--soft-gray); padding: 80px 5%; text-align: center; border-bottom: 1px solid var(--border); }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--dark-navy); }
+        .hero p { font-size: 1.1rem; color: #64748b; max-width: 600px; margin: 0 auto 2rem; }
+
+        /* Product Section */
+        .catalog { padding: 60px 5%; max-width: 1200px; margin: 0 auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        
+        .card { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .card-img { height: 200px; background: #e2e8f0; display: flex; align-items: center; justify-content: center; }
+        .card-content { padding: 1.5rem; }
+        .tag { font-size: 0.75rem; font-weight: 700; color: var(--medical-blue); text-transform: uppercase; margin-bottom: 0.5rem; display: block; }
+        
+        /* Contact Form */
+        .contact-section { background: var(--dark-navy); color: white; padding: 60px 5%; text-align: center; }
+        form { max-width: 400px; margin: 2rem auto; display: flex; flex-direction: column; gap:
